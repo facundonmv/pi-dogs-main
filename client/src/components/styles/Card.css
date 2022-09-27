@@ -1,0 +1,88 @@
+.containerCard{
+    display: inline-block;
+}
+
+.cardDog{
+    display: inline-block;
+    position: relative;
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    margin-right: 60px;
+    margin-top: 10px;
+    top: 70px;
+}
+
+.cardDog .faceDog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cardDog .frontDog{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.cardDog .frontDog img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardDog .frontDog h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: #E3822E;
+    text-align: center;
+}
+
+.cardDog .backDog{
+    transform: perspective(600px) rotateY(180deg);
+    background: #E3822E;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.cardDog .backDog .linkDog{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+.cardDog .backDog .link a{
+    color: #f3f3f3;
+}
+
+.cardDog .backDog h3{
+   font-size: 16px;
+   margin-top: 10px;
+   letter-spacing: 2px;
+}
+
+.cardDog .backDog p{
+    letter-spacing: 2px;
+    font-size: 12px;
+ }
+
+ .cardDog:hover .frontDog{
+    transform: perspective(600px) rotateY(180deg);
+ }
+ .cardDog:hover .backDog{
+    transform: perspective(600px) rotateY(360deg);
+ }

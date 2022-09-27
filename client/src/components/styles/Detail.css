@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.Detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://i.ibb.co/0BsfpNW/Mac-Book-Pro-16-13.png);
+}
+
+.cardDetail{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    background: #E3822E;
+    box-shadow: 0 4;
+    border-radius: 40px;
+    position: relative;
+}
+
+.cardDetail .imgDetail{
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+}
+
+.cardDetail .contentDetail{
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 50px 150px 50px;
+    padding: 10px 15px;
+}
+
+.cardDetail .contentDetail .titleDetail{
+    color: #000;
+    font-size: 16px;
+}
+
+.cardDetail .contentDetail .textDetail p{
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    position: relative;
+    text-align: left;
+    bottom: 16px;
+}
+
+.cardDetail .contentDetail .btnDetail{
+    background: linear-gradient(180deg, rgba(240, 241, 161, 0.18) 20.5%, rgba(128, 166, 45, 0.18) 32.92%, rgba(128, 166, 45, 0.53) 54.04%, #80A62D 100%, #80A62D 100%);
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 60px;
+}

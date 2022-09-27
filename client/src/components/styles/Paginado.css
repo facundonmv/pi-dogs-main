@@ -1,0 +1,45 @@
+.containerPaginado{
+    display: flex;
+}
+
+.inputPaginado{
+    background: linear-gradient(360deg, rgba(240, 241, 161, 0.18) 20.5%, rgba(128, 166, 45, 0.18) 32.92%, rgba(128, 166, 45, 0.53) 54.04%, #80A62D 100%, #80A62D 100%);
+    border: none;
+    font-size: 20px;
+    border-radius: 25px 0 0 25px;
+    width: 26px;
+    position: relative;
+    left: 490px;
+    top: 80px;
+    height: 23px;
+}
+.inputPaginado2{
+    background: linear-gradient(360deg, rgba(240, 241, 161, 0.18) 20.5%, rgba(128, 166, 45, 0.18) 32.92%, rgba(128, 166, 45, 0.53) 54.04%, #80A62D 100%, #80A62D 100%);
+    border: none;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+   position: relative;
+   left: 490px;
+   top: 80px;
+   height: 30px;
+}
+.button1{
+    background: linear-gradient(360deg, rgba(240, 241, 161, 0.18) 20.5%, rgba(128, 166, 45, 0.18) 32.92%, rgba(128, 166, 45, 0.53) 54.04%, #80A62D 100%, #80A62D 100%);
+    border: none;
+    font-size: 20px;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    bottom: 166px;
+}
+.button2{
+    background: linear-gradient(360deg, rgba(240, 241, 161, 0.18) 20.5%, rgba(128, 166, 45, 0.18) 32.92%, rgba(128, 166, 45, 0.53) 54.04%, #80A62D 100%, #80A62D 100%);
+    border: none;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    position: relative;
+    left: 1090px;
+    bottom: 166px;
+}
